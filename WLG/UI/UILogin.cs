@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WLG.Helper;
 
 namespace WLG.UI
 {
@@ -15,6 +16,21 @@ namespace WLG.UI
         public UILogin()
         {
             InitializeComponent();
+        }
+
+        private void UILogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UILogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Config.LoggedIn = true;
+        }
+
+        private void UILogin_MouseDown(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
