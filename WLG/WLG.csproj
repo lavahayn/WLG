@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helper\Config.cs" />
+    <Compile Include="Helper\DataStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\UILogin.cs">
@@ -76,6 +77,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\UILogin.de-DE.resx">
+      <DependentUpon>UILogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UILogin.en-US.resx">
+      <DependentUpon>UILogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UILogin.resx">
       <DependentUpon>UILogin.cs</DependentUpon>
     </EmbeddedResource>
