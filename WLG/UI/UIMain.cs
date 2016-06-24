@@ -29,5 +29,38 @@ namespace WLG.UI
             ProcessStartInfo wlgWebProcess = new ProcessStartInfo("http://lavahayn.de/");
             Process.Start(wlgWebProcess);
         }
+
+        private void UIMain_Shown(object sender, EventArgs e)
+        {
+            this.Hide();
+            UILogin loginForm = new UILogin();
+            DialogResult dialogResult = loginForm.ShowDialog();
+            switch (dialogResult)
+            {
+                case DialogResult.None:
+                    break;
+                case DialogResult.OK:
+                    Visible = true;
+                    break;
+                case DialogResult.Cancel:
+                    Close();
+                    break;
+                case DialogResult.Abort:
+                    Close();
+                    break;
+                case DialogResult.Retry:
+                    break;
+                case DialogResult.Ignore:
+                    break;
+                case DialogResult.Yes:
+                    Visible = true;
+                    break;
+                case DialogResult.No:
+                    Close();
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

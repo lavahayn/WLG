@@ -43,8 +43,8 @@
             this.beendenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bearbeitenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rückgängigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.wiederholenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allesRückgängigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wiederholenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allesWiederholenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.einfügenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kopierenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -156,17 +156,17 @@
             this.rückgängigToolStripMenuItem.Name = "rückgängigToolStripMenuItem";
             resources.ApplyResources(this.rückgängigToolStripMenuItem, "rückgängigToolStripMenuItem");
             // 
+            // allesRückgängigToolStripMenuItem
+            // 
+            this.allesRückgängigToolStripMenuItem.Name = "allesRückgängigToolStripMenuItem";
+            resources.ApplyResources(this.allesRückgängigToolStripMenuItem, "allesRückgängigToolStripMenuItem");
+            // 
             // wiederholenToolStripMenuItem
             // 
             this.wiederholenToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.allesWiederholenToolStripMenuItem});
             this.wiederholenToolStripMenuItem.Name = "wiederholenToolStripMenuItem";
             resources.ApplyResources(this.wiederholenToolStripMenuItem, "wiederholenToolStripMenuItem");
-            // 
-            // allesRückgängigToolStripMenuItem
-            // 
-            this.allesRückgängigToolStripMenuItem.Name = "allesRückgängigToolStripMenuItem";
-            resources.ApplyResources(this.allesRückgängigToolStripMenuItem, "allesRückgängigToolStripMenuItem");
             // 
             // allesWiederholenToolStripMenuItem
             // 
@@ -246,6 +246,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "UIMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Shown += new System.EventHandler(this.UIMain_Shown);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

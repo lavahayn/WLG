@@ -21,6 +21,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WLGSERVERINSTALLER", "WLGSE
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WLGDatabaseProject", "WLGDatabaseProject\WLGDatabaseProject.sqlproj", "{71CF427F-9764-4C62-83CF-1BE9FBCF6273}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{94CD0907-D389-4C9B-9194-DAF9C49F1BD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

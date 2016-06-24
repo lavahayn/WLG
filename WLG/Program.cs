@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WLG.Console;
 using WLG.Helper;
 using WLG.UI;
+using WLGSDK;
 
 namespace WLG
 {
@@ -19,16 +21,14 @@ namespace WLG
             CollectRuntimeInfos();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UILogin());
-            if (Config.LoggedIn)
-            {
-                Application.Run(new UIMain());
-            }
+            
+                Application.Run(new MultiFormContext(new UIConsole(), new UIMain()));
         }
 
         private static void CollectRuntimeInfos()
         {
             DataStore.RunDate = DateTime.Now;
+            DataStore.StaticLogger = new Logger();
         }
     }
 }

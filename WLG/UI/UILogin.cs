@@ -8,11 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WLG.Helper;
+using WLGSDK;
 
 namespace WLG.UI
 {
-    public partial class UILogin : Form
+    public partial class UILogin : DraggableForm
     {
+        public EnumDragDropState DragState { get; private set; }
+
+        public Point FirstPoint { get; private set; }
+
         public UILogin()
         {
             InitializeComponent();
@@ -28,9 +33,5 @@ namespace WLG.UI
             Config.LoggedIn = true;
         }
 
-        private void UILogin_MouseDown(object sender, MouseEventArgs e)
-        {
-
-        }
     }
 }

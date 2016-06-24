@@ -46,8 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Console\UIConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Console\UIConsole.Designer.cs">
+      <DependentUpon>UIConsole.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper\Config.cs" />
     <Compile Include="Helper\DataStore.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\UILogin.cs">
@@ -68,6 +75,9 @@
     <Compile Include="UI\UIStatus.Designer.cs">
       <DependentUpon>UIStatus.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Console\UIConsole.resx">
+      <DependentUpon>UIConsole.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,7 +119,6 @@
     <ProjectReference Include="..\WLGSDK\WLGSDK.csproj">
       <Project>{4a401e65-a158-4881-a4f4-8f51e2414c9f}</Project>
       <Name>WLGSDK</Name>
-      <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

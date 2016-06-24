@@ -67,7 +67,6 @@
             this.Name = "UILogin";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UILogin_FormClosing);
             this.Load += new System.EventHandler(this.UILogin_Load);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.UILogin_MouseDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

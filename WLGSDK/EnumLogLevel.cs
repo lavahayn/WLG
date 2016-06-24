@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace WLGSDK
 {
-    public enum EnumDragDropState
+    public enum EnumLogLevel
     {
-        Clicked,
-        Dragging,
-        Dropping,
-        Dropped,
+        MessageBox,
+        Message,
+        Error,
+        Warning,
+        Info,
+        Trace,
+        Debug
     }
 }

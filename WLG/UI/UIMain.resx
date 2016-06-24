@@ -216,7 +216,7 @@
     <value>Alles Rückgängig</value>
   </data>
   <data name="rückgängigToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>148, 22</value>
   </data>
   <data name="rückgängigToolStripMenuItem.Text" xml:space="preserve">
     <value>Rückgängig</value>
@@ -228,31 +228,31 @@
     <value>Alles Wiederholen</value>
   </data>
   <data name="wiederholenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>148, 22</value>
   </data>
   <data name="wiederholenToolStripMenuItem.Text" xml:space="preserve">
     <value>Wiederholen</value>
   </data>
   <data name="einfügenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>148, 22</value>
   </data>
   <data name="einfügenToolStripMenuItem.Text" xml:space="preserve">
     <value>Einfügen</value>
   </data>
   <data name="kopierenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>148, 22</value>
   </data>
   <data name="kopierenToolStripMenuItem.Text" xml:space="preserve">
     <value>Kopieren</value>
   </data>
   <data name="ausschneidenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>148, 22</value>
   </data>
   <data name="ausschneidenToolStripMenuItem.Text" xml:space="preserve">
     <value>Ausschneiden</value>
   </data>
   <data name="duplizierenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>148, 22</value>
   </data>
   <data name="duplizierenToolStripMenuItem.Text" xml:space="preserve">
     <value>Duplizieren</value>
@@ -413,16 +413,16 @@
   <data name="&gt;&gt;rückgängigToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;wiederholenToolStripMenuItem.Name" xml:space="preserve">
-    <value>wiederholenToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;wiederholenToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;allesRückgängigToolStripMenuItem.Name" xml:space="preserve">
     <value>allesRückgängigToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;allesRückgängigToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wiederholenToolStripMenuItem.Name" xml:space="preserve">
+    <value>wiederholenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;wiederholenToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;allesWiederholenToolStripMenuItem.Name" xml:space="preserve">
